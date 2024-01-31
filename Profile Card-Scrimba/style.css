@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.card {
+    width: 300px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    margin: 20px auto;
+    color: #ff4646;
+    font-family: 'Bungee', sans-serif;
+}
+
+.card img {
+    width: 160px;
+    border-radius: 50%;
+    border: 10px double #ff4646;
+}
+
+.card .info h1 {
+    line-height: 1.5em;
+    background-color: #ff4646;
+    color: #333;
+}
+
+.card .info a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ff4646;
+    height: 30px;
+    width: 30px;
+    color: #333;
+    border-radius: 50%;
+    font-size: larger;
+    line-height: 30px;
+    margin: 10px;
+}
+
+h3 i {
+    margin: 10px;
+}

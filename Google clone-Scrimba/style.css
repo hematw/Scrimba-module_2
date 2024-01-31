@@ -1,0 +1,30 @@
+
+.main {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .logo {
+    width: 300px;
+    margin: 100px 0 20px;
+}
+
+.main .search {
+    width: 400px;
+    padding: 10px 26px;
+    border: 1px solid #c6c5c5;
+    border-radius: 24px;
+}
+
+.btn-container button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #edeaea;
+    border: none;
+    margin: 30px 6px;
+    cursor: pointer;
+}
